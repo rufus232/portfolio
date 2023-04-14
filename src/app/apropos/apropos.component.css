@@ -840,3 +840,15 @@ h1.text{
     margin: 0;
   }
 }
+
+@media only screen and (max-width: 438px) {
+  h1.text{
+    font-size: 55px;
+    margin-left: 102px;
+  }
+  .barre{
+    width: 240px;
+  margin-left: 130px;
+  }
+
+}
