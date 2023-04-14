@@ -747,12 +747,33 @@ cursor:default;
 }
 @media only screen and (max-width: 438px) {
   .text-3d{
-    font-size: 40px;
+    font-size: 78px;
     font-weight: 700;
-    text-shadow: none;
+    /* text-shadow: none; */
     width: 100%;
   }
-  .circle{
-    display: none;
-    }
+  nav .menu .website_name {
+    /* background-color: red; */
+    box-shadow: none;
+    
+  }
+  .mylink{
+    font-size: 3.5em;
+  }
+  .mob-open {
+    position: fixed;
+    right: 40px;
+
+    top: 20px;
+    opacity: .5;
+  }
+  /* .mob-open {
+    opacity: .5;
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-top: 19px;
+
+
+  } */
 }
