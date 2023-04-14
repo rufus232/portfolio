@@ -1,0 +1,278 @@
+main{
+    display: flex;
+    width: 100%;
+    /* gap: 5em; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profil{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.cercle{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.projet{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    width: 80%;
+    position: absolute;
+    color: white;
+    
+
+}
+.epr{
+    position: relative;
+    bottom: -40em;
+    width: 100%;
+}
+.veil{
+    position: relative;
+    bottom: -42em;
+}
+.projet .projet-left{
+
+    height: 557px;
+    width: 430px;
+    object-position: 50% 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+     /*    inset: 0px;
+    color: transparent;
+    background-color: rgb(248, 212, 195); */
+}
+img {
+    width: 100%;
+    transition: .5s;
+    position: absolute;
+    width: 430px;
+    height: 557px;
+    opacity: 0;
+    border-radius: 15px;
+    /* font-size: .75rem;*/
+    font-variation-settings: "wght" 500,"wdth" 100;
+    
+}
+.projet-image{
+    opacity: 0;
+}
+.projet .projet-right .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /* background-color: saddlebrown; */
+}
+.nb{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: white;
+
+    /* z-index: 9; */
+    animation: anime404 0.6s cubic-bezier(0.3, 0.8, 1, 1.05) both;
+    animation-delay: 1.2s;
+    text-shadow: 1px 1px 2px #36184F, 0 0 1em #36184F, 0 0 0.2em #36184F;
+}
+ul li{
+    opacity: 1;
+    transform: none;
+    font-size: 1.25rem;
+}
+.projet-row{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-transform: capitalize !important;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1.5rem 0;
+    border-bottom: var(--border) solid white;
+}
+.projet-row .projet-row-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 85%;
+    text-overflow: ellipsis;
+    font-weight: 700;
+    font-size: 25px;
+    text-shadow: 0 1px 0 #ccc,
+    0 1px 0 #c9c9c9,
+    0 1.5px 0 #bbb,
+    0 2px 0 #b9b9b9,
+    0 2.5px 0 #aaa,
+    0 3px 1px rgba(0,0,0,.1),
+    0 0 2.5px rgba(0,0,0,.1),
+    0 0.5px 1.5px rgba(0,0,0,.3),
+    0 1.5px 2.5px rgba(0,0,0,.2),
+    0 2.5px 5px rgba(0,0,0,.25),
+    0 5px 5px rgba(0,0,0,.2),
+    0 10px 10px rgba(0,0,0,.15);
+} 
+
+
+.projet-row .projet-row-left {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: flex;
+    gap: 5px;
+    white-space: nowrap;
+}
+a{
+    font-size: 1.25rem;
+    font-variation-settings: "wght" 500,"wdth" 125;
+    text-decoration: none;
+
+}
+.soustitre{
+    
+    padding-bottom: 10px;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: white;
+    display: flex;
+    text-transform: uppercase; 
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 9;
+    animation: anime404 0.6s cubic-bezier(0.3, 0.8, 1, 1.05) both;
+    animation-delay: 1.2s;
+    text-shadow: 1px 1px 2px #36184F, 0 0 1em #36184F, 0 0 0.2em #36184F;
+  }
+  .description{
+      color: white;
+      display: grid;
+      width: 600px;
+      margin-top: 40px;
+      z-index: 9;
+      position: absolute;
+  }
+
+.soustitres{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: white;
+    /* z-index: 9; */
+    animation: anime404 0.6s cubic-bezier(0.3, 0.8, 1, 1.05) both;
+    animation-delay: 1.2s;
+    text-shadow: 1px 1px 2px #36184F, 0 0 1em #36184F, 0 0 0.2em #36184F;
+  }
+.projet .projet-right{
+    /* background-color: rgb(161, 252, 161); */
+    width: 50%;
+    height: 100%;
+}
+ul{
+    list-style: none;
+}
+
+.Epreuve{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .epreuvee4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .epreuvee5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.text{
+    letter-spacing:5px;
+    position: absolute;
+    font-family:verdana;
+    color:white;
+    font-size:80px;
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+  }
+
+.comp{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* background-color: #FB8A8A; */
+  }
+  .barre{
+    border-bottom: 5px solid white;
+    width: 340px;
+    margin-left: 180px;
+    box-shadow: 0 1px 0 #ccc,
+    0 1px 0 #c9c9c9,
+    0 1.5px 0 #bbb,
+    0 2px 0 #b9b9b9,
+    0 2.5px 0 #aaa,
+    0 3px 1px rgba(0,0,0,.1),
+    0 0 2.5px rgba(0,0,0,.1),
+    0 0.5px 1.5px rgba(0,0,0,.3),
+    0 1.5px 2.5px rgba(0,0,0,.2),
+    0 2.5px 5px rgba(0,0,0,.25),
+    0 5px 5px rgba(0,0,0,.2),
+    0 10px 10px rgba(0,0,0,.15);
+  
+  }
+.e4{
+    position: absolute;
+    z-index: 2;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: white;
+    text-transform: uppercase; 
+    animation: anime404 0.6s cubic-bezier(0.3, 0.8, 1, 1.05) both;
+    animation-delay: 1.2s;
+    text-shadow: 1px 1px 2px #36184F, 0 0 1em #36184F, 0 0 0.2em #36184F;
+}
+.e5{
+    position: absolute;
+    z-index: 2;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: white;
+    text-transform: uppercase; 
+    animation: anime404 0.6s cubic-bezier(0.3, 0.8, 1, 1.05) both;
+    animation-delay: 1.2s;
+    text-shadow: 1px 1px 2px #36184F, 0 0 1em #36184F, 0 0 0.2em #36184F;
+
+}

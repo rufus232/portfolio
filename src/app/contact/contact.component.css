@@ -1,0 +1,318 @@
+.row{
+  gap: 15px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  height: 600px;
+}
+
+
+.login-box {
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  border-radius: 100%;
+  width: 500px;
+  padding: 80px;
+  
+  /* transform: translate(-50%, -50%); */
+  /* background: rgba(0,0,0,.5); */
+  box-sizing: border-box;
+  box-shadow: inset 5px 20px 40px rgba(54, 24, 79, 0.25), inset 5px 0px 5px rgba(50, 36, 62, 0.3), inset 5px 5px 20px rgba(50, 36, 62, 0.25), 2px 2px 5px rgba(255, 255, 255, 0.2);
+
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #FB8A8A;
+  font-size: 12px;
+}
+
+.login-box form a {
+  display: inline-block;
+  padding: 20px 30px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  width: max-content;
+  margin-left: 90px;
+  transition:all 1s ease;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+.login-box a:hover {
+  border-radius: 5px;
+  color: #FB8A8A;
+  box-shadow: inset 5px 20px 40px rgba(54, 24, 79, 0.25), inset 5px 0px 5px rgba(50, 36, 62, 0.3), inset 5px 5px 20px rgba(50, 36, 62, 0.25), 2px 2px 5px rgba(255, 255, 255, 0.2);
+
+}
+
+
+
+.profil{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title{
+  display: flex;
+}
+
+
+.comp{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  /* background-color: #FB8A8A; */
+}
+.barre{
+  border-bottom: 5px solid white;
+  width: 340px;
+  margin-left: 180px;
+  box-shadow: 0 1px 0 #ccc,
+  0 1px 0 #c9c9c9,
+  0 1.5px 0 #bbb,
+  0 2px 0 #b9b9b9,
+  0 2.5px 0 #aaa,
+  0 3px 1px rgba(0,0,0,.1),
+  0 0 2.5px rgba(0,0,0,.1),
+  0 0.5px 1.5px rgba(0,0,0,.3),
+  0 1.5px 2.5px rgba(0,0,0,.2),
+  0 2.5px 5px rgba(0,0,0,.25),
+  0 5px 5px rgba(0,0,0,.2),
+  0 10px 10px rgba(0,0,0,.15);
+
+}
+
+h1.text{
+  letter-spacing:5px;
+  font-family:verdana;
+  color:white;
+  font-size:80px;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.text {
+  position: absolute;
+  /* margin: 50px 200px; */
+  animation: text 0.6s 1.8s ease backwards;
+  
+}
+@keyframes text {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+}
+@media screen and (max-width: 799px) {
+  .wrapper .container .text {
+    min-height: 400px;
+    height: 80%;
+  }
+}
+
+
+  /* icon */
+
+ul{
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    margin: 0;
+    padding: 0;
+    display: flex;  
+}
+
+ul li{
+    list-style: none;
+    margin: 0 40px;
+}
+
+ul li a .fa{
+    font-size: 40px;
+    color: #262626;
+    
+    line-height: 80px;
+    transition: .5s;
+}
+
+ul li a{
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    text-align: center;
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+    transition: .5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+}
+
+ul li a:before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transition: .5s;
+    transform: rotate(0deg) skewY(-45deg)
+}
+ul li a:after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background: #b1b1b1;
+    transition: .5s;
+    transform: rotate(0deg) skewX(-45deg)
+}
+ul li:hover .fa{
+    color: #fff !important;
+}
+
+ul li a:hover{
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px,-20px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+}
+
+ul li:hover:nth-child(1) a{
+    background: #3b5999;
+}
+ul li:hover:nth-child(1) a:before{
+    background: #2e4a87;
+}
+ul li:hover:nth-child(1) a:after{
+    background: #4d6fb7;
+}
+
+
+
+ul li:hover:nth-child(2) a{
+    background: #030303;
+}
+ul li:hover:nth-child(2) a:before{
+    background: #121412;
+}
+ul li:hover:nth-child(2) a:after{
+    background: #090909;
+}
+
+
+ul li:hover:nth-child(3) a{
+    background: #e4405f;
+}
+ul li:hover:nth-child(3) a:before{
+    background: #d02d4c;
+}
+ul li:hover:nth-child(3) a:after{
+    background: #f1395c;
+}
+
+ul li:hover:nth-child(4) a{
+  background: #3b5999;
+
+}
+ul li:hover:nth-child(4) a:before{
+  background: #2e4a87;
+
+}
+ul li:hover:nth-child(4) a:after{
+  background: #4d6fb7;
+
+}
+
+.reseaux{
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.reseaux p {
+  box-sizing: border-box;
+  left:40%;
+  color: white;
+  text-shadow: 0 1px 0 #ccc,
+  0 1px 0 #c9c9c9,
+  0 1.5px 0 #bbb,
+  0 2px 0 #b9b9b9,
+  0 2.5px 0 #aaa,
+  0 3px 1px rgba(0,0,0,.1),
+  0 0 2.5px rgba(0,0,0,.1),
+  0 0.5px 1.5px rgba(0,0,0,.3),
+  0 1.5px 2.5px rgba(0,0,0,.2),
+  0 2.5px 5px rgba(0,0,0,.25),
+  0 5px 5px rgba(0,0,0,.2),
+  0 10px 10px rgba(0,0,0,.15);
+  cursor:default;
+  font-size: 50px;
+  margin: 0;
+  
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.c{
+  font-size:90px ;
+}

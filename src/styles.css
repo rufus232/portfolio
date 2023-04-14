@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    /* overflow: hidden; */
+    font-family: "Barlow", sans-serif;
+  box-sizing: border-box;
+
+    background: hsl(267, 20%, 42%);
+}
+a{
+  text-decoration: none;
+    color: inherit;
+}
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
