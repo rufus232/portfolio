@@ -22,6 +22,7 @@ main{
 .image img{
     width: 100%;
     border-radius: 20px;
+    margin-top: 80px;
 
 }
 .desc{
@@ -156,3 +157,34 @@ h1.text{
     0 10px 10px rgba(0,0,0,.15);
   
   }
+
+  @media only screen and (max-width: 438px) {
+    h1.text{
+      font-size: 45px;
+      padding: 0 10px;
+      /* margin-left: 102px; */
+    }
+    .barre{
+      width: 240px;
+    margin-left: 130px;
+    }
+    td{
+        display: flex;
+        flex-direction: column;
+    }
+    .details{
+        flex-direction: column;
+        align-items: inherit;
+    }
+    .description{
+        width: 100%;
+        padding: 20px 0;
+    }
+    tbody{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}

@@ -158,3 +158,10 @@ body {
         align-items: center;
         gap: 10px;
     }
+
+    
+@media only screen and (max-width: 438px) {
+  .b{
+    flex-direction: column;
+  }
+}
