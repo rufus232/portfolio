@@ -259,3 +259,29 @@ nav .menu .menu_links .link:hover:before {
   0 5px 5px rgba(0,0,0,.2),
   0 10px 10px rgba(0,0,0,.15);
 }
+
+
+@media only screen and (max-width: 438px) {
+  .text-3d{
+    font-size: 78px;
+    font-weight: 700;
+    /* text-shadow: none; */
+    width: 100%;
+  }
+  nav .menu .website_name {
+    /* background-color: red; */
+    box-shadow: none;
+    
+  }
+  .mylink{
+    font-size: 3.5em;
+  }
+  .mob-open {
+    position: fixed;
+    right: 40px;
+
+    top: 20px;
+    opacity: .5;
+  }
+
+}

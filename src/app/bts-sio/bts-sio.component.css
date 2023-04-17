@@ -219,7 +219,15 @@ body {
 
       @media screen and (max-width: 1086px) {
         .texts{
-          background-color: red;
           width: 100%;
+        }
+        .barre{
+          width:140px;
+        }
+        .superShadow{
+          font-size: 4em;
+        }
+        .contour{
+          height: 255px;
         }
       }
