@@ -316,3 +316,34 @@ ul li:hover:nth-child(4) a:after{
 .c{
   font-size:90px ;
 }
+
+@media only screen and (max-width: 438px) {
+  .title{
+  }
+  h1.text{
+    font-size: 65px;
+    padding-right: 85px;
+    margin-left: 220px;
+    text-align:center ;
+  }
+  .barre{
+    width: 240px;
+  }
+  .row{
+    flex-direction: column;
+    margin-top: 160px;
+    left: 45px;
+    position: absolute;
+  }
+  ul{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .reseaux{
+    position: relative;
+    gap: 30px;
+    top: 150px;
+
+  }
+
+}

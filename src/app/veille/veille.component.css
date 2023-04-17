@@ -154,3 +154,24 @@ h1.text{
   .show{
     opacity: 1;
   }
+  @media only screen and (max-width: 438px) {
+    .titles{
+        position: absolute;
+    }
+    h1.text{
+      font-size: 40px;
+      padding-right: 85px;
+      margin-left: 90px;
+      text-align:center ;
+    }
+    .barre{
+      width: 240px;
+    }
+    .texts{
+      top: 70px;
+      left: 20px;
+      /* background-color: red; */
+      width: 95%;
+      padding: 10px 30px;
+    }
+  }

@@ -844,11 +844,47 @@ h1.text{
 @media only screen and (max-width: 438px) {
   h1.text{
     font-size: 55px;
+    padding: 0 10px;
     margin-left: 102px;
   }
   .barre{
     width: 240px;
   margin-left: 130px;
   }
-
+  .mytext{
+    width: 70%;
+    position: absolute;
+    margin-top: 40px;
+    text-align: match-parent;
+  }
+  button{
+    position: relative;
+    top: 220px;
+  }
+  .content__container__list {
+    padding-left: 140px;
+  }
+  .content{
+    margin: auto;
+    position: relative;
+    top: 240px;
+    left: 205px;
+    padding: 10px 10px;
+    /* width: 100%; */
+    width: 400px;
+  }
+  .caption{
+    position: relative;
+    top: 180px;
+    left: -20px;
+    margin-bottom: 100px;
+  }
+  .barre_comp{
+    margin-bottom: 120px;
+    position: relative;
+    top: 70px;
+  }
+  .carousel{
+    width: 97%;
+  }
 }
