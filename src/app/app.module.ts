@@ -23,6 +23,8 @@ import { ContactComponent } from './contact/contact.component';
 import { MinpeaceComponent } from './minpeace/minpeace.component';
 import { E5Component } from './e5/e5.component';
 import { BtsSioComponent } from './bts-sio/bts-sio.component';
+import { GestionBudgetComponent } from './gestion-budget/gestion-budget.component';
+import { MapsComponent } from './maps/maps.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +49,8 @@ import { BtsSioComponent } from './bts-sio/bts-sio.component';
     MinpeaceComponent,
     E5Component,
     BtsSioComponent,
+    GestionBudgetComponent,
+    MapsComponent,
   ],
   imports: [
     BrowserModule,

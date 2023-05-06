@@ -9,6 +9,8 @@ import { EpreuvesComponent } from './epreuves/epreuves.component';
 import { GameComponent } from './game/game.component';
 import { LeboncoinComponent } from './leboncoin/leboncoin.component';
 import { MeteoAppComponent } from './meteo-app/meteo-app.component';
+import { MapsComponent } from './maps/maps.component';
+
 import { NavbarComponent } from './navbar/navbar.component';
 import { PeaceComponent } from './peace/peace.component';
 import { PepsiComponent } from './pepsi/pepsi.component';
@@ -20,6 +22,7 @@ import { E4Component } from './e4/e4.component';
 import { MinpeaceComponent } from './minpeace/minpeace.component';
 import { E5Component } from './e5/e5.component';
 import { BtsSioComponent } from './bts-sio/bts-sio.component';
+import { GestionBudgetComponent } from './gestion-budget/gestion-budget.component'
 
 
 const routes: Routes = [
@@ -41,9 +44,11 @@ const routes: Routes = [
   {path: "e4", component: E4Component },
   {path: "e5", component: E5Component },
   {path: "bts-sio", component: BtsSioComponent },
-  {path: "meteo_App", component: MeteoAppComponent },
+  {path: "meteo-app", component: MeteoAppComponent },
   {path: "contact", component: ContactComponent },
   {path: "portfolio", component: PortfolioComponent },
+  {path: "gestion_budget", component: GestionBudgetComponent},
+  {path: "maps", component: MapsComponent }
 ];
 
 

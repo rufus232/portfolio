@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: auto;
+    font-family: "Barlow", sans-serif;
+    box-sizing: border-box;
+    background: hsl(267, 20%, 42%);
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    /* background-color: #aaa; */
+    width: 75%;
+
+    margin: auto;
+    border-radius: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.image img{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 80px;
+
+}
+.desc{
+    /* background-color: salmon; */
+    color: white;
+}
+.details{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.info{
+    /* background-color: seagreen; */
+    width: 50%;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: chartreuse; */
+    width: 50%;
+    height: 100%;
+
+}
+h6{
+    letter-spacing:5px;
+    font-family:verdana;
+    color:white;
+    font-size: 30px;
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+  }
+
+ul{
+    list-style: none;
+}
+ul li{
+    font-size: 25px;
+}
+ul li i{
+    font-size: 35px;
+}
+button {
+    height: 40px;
+    padding: 0 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 15px 20px rgba(54, 24, 79, 0.5);
+    z-index: 3;
+    color: #695681;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: all 0.3s ease;
+    
+  }
+ button:hover {
+    box-shadow: 0px 10px 10px -10px rgba(54, 24, 79, 0.5);
+    transform: translateY(5px);
+    background: #FB8A8A;
+    color: white;
+  }
+.profil{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+h1.text{
+    letter-spacing:5px;
+    font-family:verdana;
+    color:white;
+    font-size:80px;
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+  }
+
+.comp{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* background-color: #FB8A8A; */
+  }
+  .barre{
+    border-bottom: 5px solid white;
+    width: 340px;
+    margin-left: 180px;
+    box-shadow: 0 1px 0 #ccc,
+    0 1px 0 #c9c9c9,
+    0 1.5px 0 #bbb,
+    0 2px 0 #b9b9b9,
+    0 2.5px 0 #aaa,
+    0 3px 1px rgba(0,0,0,.1),
+    0 0 2.5px rgba(0,0,0,.1),
+    0 0.5px 1.5px rgba(0,0,0,.3),
+    0 1.5px 2.5px rgba(0,0,0,.2),
+    0 2.5px 5px rgba(0,0,0,.25),
+    0 5px 5px rgba(0,0,0,.2),
+    0 10px 10px rgba(0,0,0,.15);
+  
+  }
+
+  @media only screen and (max-width: 438px) {
+    h1.text{
+      font-size: 45px;
+      padding: 0 10px;
+      /* margin-left: 102px; */
+    }
+    .barre{
+      width: 240px;
+    margin-left: 130px;
+    }
+    td{
+        display: flex;
+        flex-direction: column;
+    }
+    .details{
+        flex-direction: column;
+        align-items: inherit;
+    }
+    .description{
+        width: 100%;
+        padding: 20px 0;
+    }
+    tbody{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
