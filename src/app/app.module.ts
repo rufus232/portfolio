@@ -11,6 +11,7 @@ import { Circle2Component } from './circle2/circle2.component';
 import { PeaceComponent } from './peace/peace.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { PepsiComponent } from './pepsi/pepsi.component';
+
 import { LeboncoinComponent } from './leboncoin/leboncoin.component';
 import { PlanegameComponent } from './planegame/planegame.component';
 import { GameComponent } from './game/game.component';

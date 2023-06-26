@@ -14,6 +14,8 @@ import { MapsComponent } from './maps/maps.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PeaceComponent } from './peace/peace.component';
 import { PepsiComponent } from './pepsi/pepsi.component';
+
+
 import { PlanegameComponent } from './planegame/planegame.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { QcmComponent } from './qcm/qcm.component';
